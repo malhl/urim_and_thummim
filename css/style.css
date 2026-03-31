@@ -46,7 +46,7 @@ body {
 /* Header */
 header {
   text-align: center;
-  padding: 1rem 1rem 0.5rem;
+  padding: 0.75rem 1rem 0.5rem;
   border-bottom: 2px solid var(--border);
   background: linear-gradient(180deg, var(--cream) 0%, var(--parchment) 100%);
   flex-shrink: 0;
@@ -68,6 +68,7 @@ header .subtitle {
   font-style: italic;
   letter-spacing: 0.04em;
 }
+
 
 /* Decorative rule */
 .ornament {
@@ -116,6 +117,7 @@ header .subtitle {
   color: var(--ink);
   word-wrap: break-word;
   overflow-wrap: break-word;
+  white-space: pre-wrap;
   flex: 1;
   overflow-y: auto;
 }
