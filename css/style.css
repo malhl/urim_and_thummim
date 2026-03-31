@@ -113,7 +113,7 @@ header .subtitle {
 
 #deseret-output {
   font-size: 1.6rem;
-  line-height: 1.8;
+  line-height: 1.2;
   color: var(--ink);
   word-wrap: break-word;
   overflow-wrap: break-word;
