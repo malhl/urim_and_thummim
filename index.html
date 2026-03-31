@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deseret Alphabet Translator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Deseret Alphabet Translator</h1>
+    <p class="subtitle">English to 𐐔𐐯𐑆𐐨𐑉𐐯𐐻 &mdash; Live Phonetic Conversion</p>
+  </header>
+
+  <div class="ornament">&mdash; &#10047; &mdash;</div>
+
+  <div class="output-area">
+    <div class="output-section">
+      <h2>Deseret</h2>
+      <div id="deseret-output"></div>
+    </div>
+  </div>
+
+  <div class="input-area" id="input-area">
+    <div class="resize-handle" id="resize-handle"></div>
+    <div class="input-wrap">
+      <textarea
+        id="input-text"
+        placeholder="Type English text here and watch it transform..."
+        autofocus
+        spellcheck="false"
+      ></textarea>
+    </div>
+  </div>
+
+  <footer>
+    Deseret Alphabet &mdash; devised 1854 by the University of Deseret &bull;
+    <a href="https://en.wikipedia.org/wiki/Deseret_alphabet" target="_blank" rel="noopener">Learn more</a>
+  </footer>
+
+  <!-- Load scripts in order: dictionary → deseret mapping → converter → app -->
+  <script src="js/dictionary.js"></script>
+  <script src="js/deseret.js"></script>
+  <script src="js/converter.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
